@@ -1,0 +1,21 @@
+*div{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+@media screen and (width <= 600px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+
+@media screen and (width >= 600px) and (width <= 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+}
